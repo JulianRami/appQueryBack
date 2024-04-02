@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458c0cf-4681-43e0-b025-cce6f20578b7" name="Changes" comment="fixed dependencies conflic commons-loggin">
-      <change afterPath="$PROJECT_DIR$/src/BD/Scribts.txt" afterDir="false" />
+    <list default="true" id="b458c0cf-4681-43e0-b025-cce6f20578b7" name="Changes" comment="add environments">
       <change afterPath="$PROJECT_DIR$/src/main/resources/google-cloud/valiant-hub-404718-6e1c95d088cf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/appQueries/versionOne/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/appQueries/versionOne/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/appQueries/versionOne/config/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/appQueries/versionOne/config/DatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.CommentControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.CommentControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.QueriesSaveControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.QueriesSaveControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.QueryControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.QueryControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.SearchQueryControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.SearchQueryControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.appQueries.versionOne.Controller.UserControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.CommentControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.CommentControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.QueriesSaveControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.QueriesSaveControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.QueryControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.QueryControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.SearchQueryControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.SearchQueryControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.appQueries.versionOne.Controller.UserControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/CommentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/CommentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/QueriesSaveControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/QueriesSaveControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/QueryControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/QueryControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/SearchQueryControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/SearchQueryControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/appQueries/versionOne/Controller/UserControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +106,7 @@
       <recent name="C:\Archivos\Entrevista Tech\Segunda Prueba\appQueryBack\src\main\resources\google-cloud" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Archivos\Entrevista Tech\Segunda Prueba\appQueryBack" />
       <recent name="C:\Archivos\Entrevista Tech\Segunda Prueba\appQueryBack\src\BD" />
       <recent name="C:\Users\julia\Desktop\appQuey\src\test\java\com\appQueries\versionOne" />
     </key>
@@ -129,7 +146,7 @@
       <workItem from="1712013912336" duration="3526000" />
       <workItem from="1712017616168" duration="923000" />
       <workItem from="1712018555428" duration="981000" />
-      <workItem from="1712019555242" duration="2171000" />
+      <workItem from="1712019555242" duration="3732000" />
     </task>
     <task id="LOCAL-00001" summary="version v1">
       <created>1712016039277</created>
@@ -166,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712020179620</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add environments">
+      <created>1712022503262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712022503262</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +234,7 @@
     </ignored-roots>
     <MESSAGE value="version v1" />
     <MESSAGE value="fixed dependencies conflic commons-loggin" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed dependencies conflic commons-loggin" />
+    <MESSAGE value="add environments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add environments" />
   </component>
 </project>
