@@ -1,0 +1,88 @@
+-- Drop the database
+DROP DATABASE IF EXISTS appQueries;
+
+-- Create the database
+CREATE DATABASE IF NOT EXISTS appQueries;
+USE appQueries;
+
+-- Create Users table
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    is_active BOOLEAN DEFAULT true
+);
+
+-- Create Consults table
+CREATE TABLE Queries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    query_name VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    date DATE,
+    search_term VARCHAR(255),
+    country VARCHAR(255),
+    record_count INT NOT NULL,
+    user_id INT,
+    is_active BOOLEAN DEFAULT true,
+    FOREIGN KEY (user_id) REFERENCES Users(id)
+);
+
+-- Create Comments table
+CREATE TABLE Comments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    comment_text TEXT NOT NULL,
+    user_id INT,
+    query_id INT,
+    is_active BOOLEAN DEFAULT true,
+    FOREIGN KEY (user_id) REFERENCES Users(id),
+    FOREIGN KEY (query_id) REFERENCES Queries(id)
+);
+
+-- Create Queries_Save table
+CREATE TABLE Queries_Save (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    query_id INT,
+    is_active BOOLEAN DEFAULT true,
+    FOREIGN KEY (user_id) REFERENCES Users(id),
+    FOREIGN KEY (query_id) REFERENCES Queries(id)
+);
+
+-- Insert data into Users table
+INSERT INTO Users (username) VALUES
+    ('User1'),
+    ('User2'),
+    ('User3');
+    
+-- Insert data into Consults table
+INSERT INTO Queries (query_name, description, date, search_term, country, record_count, user_id) VALUES
+    ('Consult1', 'Description1', '2023-04-01', 'Search1', 'Country1', 50, 1),
+    ('Consult2', 'Description2', '2023-05-01', 'Search2', 'Country2', 75, 2),
+    ('Consult3', 'Description3', '2023-06-01', 'Search3', 'Country3', 100, 3);
+
+
+-- Insert data into Comments table
+INSERT INTO Comments (comment_text, user_id, query_id) VALUES
+    ('Comment 1', 1, 1),
+    ('Comment 2', 2, 2),
+    ('Comment 3', 3, 2);
+    
+-- Insert data into Queries_Save table
+INSERT INTO Queries_Save (user_id, query_id) VALUES
+    (1, 1),
+    (2, 2),
+    (3, 3);
+
+-- Create a new user
+CREATE USER 'julian'@'localhost' IDENTIFIED BY '123';
+
+-- Asig all access user
+GRANT ALL PRIVILEGES ON appqueries.* TO 'julian'@'localhost';
+
+-- recovery all privileges
+FLUSH PRIVILEGES;
+
+
+
+
+
+

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b458c0cf-4681-43e0-b025-cce6f20578b7" name="Changes" comment="version v1">
+    <list default="true" id="b458c0cf-4681-43e0-b025-cce6f20578b7" name="Changes" comment="fixed dependencies conflic commons-loggin">
+      <change afterPath="$PROJECT_DIR$/src/BD/Scribts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/google-cloud/valiant-hub-404718-6e1c95d088cf.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +69,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Archivos/Entrevista Tech/Segunda Prueba/appQueryBack",
+    "last_opened_file_path": "C:/Archivos/Entrevista Tech/Segunda Prueba/appQueryBack/src/main/resources/google-cloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,7 +86,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Archivos\Entrevista Tech\Segunda Prueba\appQueryBack\src\main\resources\google-cloud" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Archivos\Entrevista Tech\Segunda Prueba\appQueryBack\src\BD" />
       <recent name="C:\Users\julia\Desktop\appQuey\src\test\java\com\appQueries\versionOne" />
     </key>
   </component>
@@ -122,7 +129,7 @@
       <workItem from="1712013912336" duration="3526000" />
       <workItem from="1712017616168" duration="923000" />
       <workItem from="1712018555428" duration="981000" />
-      <workItem from="1712019555242" duration="497000" />
+      <workItem from="1712019555242" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="version v1">
       <created>1712016039277</created>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712019664232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed dependencies conflic commons-loggin">
+      <created>1712020179620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712020179620</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +209,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="version v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version v1" />
+    <MESSAGE value="fixed dependencies conflic commons-loggin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed dependencies conflic commons-loggin" />
   </component>
 </project>
