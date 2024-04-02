@@ -1,0 +1,11 @@
+Index: target/classes/application.properties
+===================================================================
+diff --git a/target/classes/application.properties b/target/classes/application.properties
+--- a/target/classes/application.properties	
++++ b/target/classes/application.properties	
+@@ -1,0 +1,4 @@
++springdoc.api-docs.enabled=true
++
++springdoc.swagger-ui.enabled=true
++springdoc.swagger-ui.path=/swagger-ui/index.html
+\ No newline at end of file

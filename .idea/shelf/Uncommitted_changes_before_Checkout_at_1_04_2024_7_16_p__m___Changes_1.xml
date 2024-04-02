@@ -1,0 +1,74 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1" date="1712016979173" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 1/04/2024 7:16 p. m. [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/VersionOneApplication.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/VersionOneApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/VersionOneApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/controller/QueryController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/controller/QueryController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/QueryController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/model/QueryData.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/model/QueryData.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/QueryData.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/model/User.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/model/User.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/User.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/controller/CommentController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/controller/CommentController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/CommentController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/repository/UserRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/repository/UserRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/UserRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/controller/UserController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/controller/UserController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/UserController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/model/Query.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/model/Query.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/Query.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/repository/QueryRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/repository/QueryRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/QueryRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/model/Comment.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/model/Comment.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/Comment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/service/CommentService.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/service/CommentService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/CommentService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/service/QueryService.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/service/QueryService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/QueryService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/repository/CommentRepository.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/repository/CommentRepository.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/CommentRepository.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/appQueries/versionOne/service/UserService.class" />
+    <option name="AFTER_PATH" value="target/classes/com/appQueries/versionOne/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_04_2024_7_16_p_ m__[Changes]1/UserService.class" />
+  </binary>
+</changelist>
