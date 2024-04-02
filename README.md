@@ -1,5 +1,7 @@
 # AppQueryBack
 
+This project connects to the bigQuery API and makes requests to search trends taking into account the filters that are available, returning data necessary to make graphs of these trends, 
+
 This project was generated with [Spring Boot].
 
 ## To create the data base
